@@ -1,0 +1,327 @@
+
+the match between Hapoel Beer Sheva and Macabbi Noobs has begun!
+Player Eyad Abu Abid scored a goal for Hapoel Beer Sheva!
+Current score is: Hapoel Beer Sheva: 1 - Macabbi Noobs: 0
+Player Eytan Tibi scored a goal for Hapoel Beer Sheva!
+Current score is: Hapoel Beer Sheva: 2 - Macabbi Noobs: 0
+the match between Hapoel Beer Sheva and Macabbi Noobs has finished!
+The score is: Hapoel Beer Sheva: 2 - Macabbi Noobs: 0
+
+------------------------------------------------------------------------------------------------------
+
+the match between Beitar Noobs and MS Noobs has begun!
+Player noob5 boob5 scored a goal for Beitar Noobs!
+Current score is: Beitar Noobs: 1 - MS Noobs: 0
+Player noob14 boob14 scored a goal for MS Noobs!
+Current score is: Beitar Noobs: 1 - MS Noobs: 1
+Player noob3 boob3 scored a goal for MS Noobs!
+Current score is: Beitar Noobs: 1 - MS Noobs: 2
+the match between Beitar Noobs and MS Noobs has finished!
+The score is: Beitar Noobs: 1 - MS Noobs: 2
+
+------------------------------------------------------------------------------------------------------
+
+the match between Hapoel Noobs and Noobs FC has begun!
+Player noob8 boob8 scored a goal for Hapoel Noobs!
+Current score is: Hapoel Noobs: 1 - Noobs FC: 0
+Player noob5 boob5 scored a goal for Hapoel Noobs!
+Current score is: Hapoel Noobs: 2 - Noobs FC: 0
+Player noob14 boob14 scored a goal for Noobs FC!
+Current score is: Hapoel Noobs: 2 - Noobs FC: 1
+Player noob4 boob4 scored a goal for Noobs FC!
+Current score is: Hapoel Noobs: 2 - Noobs FC: 2
+the match between Hapoel Noobs and Noobs FC has finished!
+The score is: Hapoel Noobs: 2 - Noobs FC: 2
+
+------------------------------------------------------------------------------------------------------
+
+the match between Hapoel Beer Sheva and Beitar Noobs has begun!
+Player Dor Micha scored a goal for Hapoel Beer Sheva!
+Current score is: Hapoel Beer Sheva: 1 - Beitar Noobs: 0
+Player Tomer Hemed scored a goal for Hapoel Beer Sheva!
+Current score is: Hapoel Beer Sheva: 2 - Beitar Noobs: 0
+the match between Hapoel Beer Sheva and Beitar Noobs has finished!
+The score is: Hapoel Beer Sheva: 2 - Beitar Noobs: 0
+
+------------------------------------------------------------------------------------------------------
+
+the match between Macabbi Noobs and Hapoel Noobs has begun!
+Player noob13 boob13 scored a goal for Macabbi Noobs!
+Current score is: Macabbi Noobs: 1 - Hapoel Noobs: 0
+Player noob8 boob8 scored a goal for Hapoel Noobs!
+Current score is: Macabbi Noobs: 1 - Hapoel Noobs: 1
+Player noob9 boob9 scored a goal for Hapoel Noobs!
+Current score is: Macabbi Noobs: 1 - Hapoel Noobs: 2
+the match between Macabbi Noobs and Hapoel Noobs has finished!
+The score is: Macabbi Noobs: 1 - Hapoel Noobs: 2
+
+------------------------------------------------------------------------------------------------------
+
+the match between MS Noobs and Hapoel Noobs has begun!
+Player noob14 boob14 scored a goal for MS Noobs!
+Current score is: MS Noobs: 1 - Hapoel Noobs: 0
+Player noob8 boob8 scored a goal for MS Noobs!
+Current score is: MS Noobs: 2 - Hapoel Noobs: 0
+the match between MS Noobs and Hapoel Noobs has finished!
+The score is: MS Noobs: 2 - Hapoel Noobs: 0
+
+------------------------------------------------------------------------------------------------------
+
+the match between Hapoel Beer Sheva and MS Noobs has begun!
+Player Rotem Hatuel scored a goal for Hapoel Beer Sheva!
+Current score is: Hapoel Beer Sheva: 1 - MS Noobs: 0
+Player Eyad Abu Abid scored a goal for Hapoel Beer Sheva!
+Current score is: Hapoel Beer Sheva: 2 - MS Noobs: 0
+Player Dor Micha scored a goal for Hapoel Beer Sheva!
+Current score is: Hapoel Beer Sheva: 3 - MS Noobs: 0
+the match between Hapoel Beer Sheva and MS Noobs has finished!
+The score is: Hapoel Beer Sheva: 3 - MS Noobs: 0
+
+------------------------------------------------------------------------------------------------------
+
+the match between Macabbi Noobs and Noobs FC has begun!
+Player noob5 boob5 scored a goal for Noobs FC!
+Current score is: Macabbi Noobs: 0 - Noobs FC: 1
+the match between Macabbi Noobs and Noobs FC has finished!
+The score is: Macabbi Noobs: 0 - Noobs FC: 1
+
+------------------------------------------------------------------------------------------------------
+
+the match between Beitar Noobs and Hapoel Noobs has begun!
+Player noob4 boob4 scored a goal for Beitar Noobs!
+Current score is: Beitar Noobs: 1 - Hapoel Noobs: 0
+Player noob14 boob14 scored a goal for Beitar Noobs!
+Current score is: Beitar Noobs: 2 - Hapoel Noobs: 0
+Player noob13 boob13 scored a goal for Hapoel Noobs!
+Current score is: Beitar Noobs: 2 - Hapoel Noobs: 1
+the match between Beitar Noobs and Hapoel Noobs has finished!
+The score is: Beitar Noobs: 2 - Hapoel Noobs: 1
+
+------------------------------------------------------------------------------------------------------
+
+the match between Hapoel Beer Sheva and Hapoel Noobs has begun!
+Player Or Dadia scored a goal for Hapoel Beer Sheva!
+Current score is: Hapoel Beer Sheva: 1 - Hapoel Noobs: 0
+Player Itay Shechter scored a goal for Hapoel Beer Sheva!
+Current score is: Hapoel Beer Sheva: 2 - Hapoel Noobs: 0
+Player Helder Lopes scored a goal for Hapoel Beer Sheva!
+Current score is: Hapoel Beer Sheva: 3 - Hapoel Noobs: 0
+Player noob11 boob11 scored a goal for Hapoel Noobs!
+Current score is: Hapoel Beer Sheva: 3 - Hapoel Noobs: 1
+the match between Hapoel Beer Sheva and Hapoel Noobs has finished!
+The score is: Hapoel Beer Sheva: 3 - Hapoel Noobs: 1
+
+------------------------------------------------------------------------------------------------------
+
+the match between Macabbi Noobs and MS Noobs has begun!
+Player noob14 boob14 scored a goal for Macabbi Noobs!
+Current score is: Macabbi Noobs: 1 - MS Noobs: 0
+Player noob7 boob7 scored a goal for MS Noobs!
+Current score is: Macabbi Noobs: 1 - MS Noobs: 1
+the match between Macabbi Noobs and MS Noobs has finished!
+The score is: Macabbi Noobs: 1 - MS Noobs: 1
+
+------------------------------------------------------------------------------------------------------
+
+the match between Beitar Noobs and Noobs FC has begun!
+Player noob14 boob14 scored a goal for Beitar Noobs!
+Current score is: Beitar Noobs: 1 - Noobs FC: 0
+Player noob2 boob2 scored a goal for Beitar Noobs!
+Current score is: Beitar Noobs: 2 - Noobs FC: 0
+Player noob2 boob2 scored a goal for Noobs FC!
+Current score is: Beitar Noobs: 2 - Noobs FC: 1
+Player noob3 boob3 scored a goal for Noobs FC!
+Current score is: Beitar Noobs: 2 - Noobs FC: 2
+the match between Beitar Noobs and Noobs FC has finished!
+The score is: Beitar Noobs: 2 - Noobs FC: 2
+
+------------------------------------------------------------------------------------------------------
+
+the match between Hapoel Beer Sheva and Noobs FC has begun!
+Player Eytan Tibi scored a goal for Hapoel Beer Sheva!
+Current score is: Hapoel Beer Sheva: 1 - Noobs FC: 0
+Player Rotem Hatuel scored a goal for Hapoel Beer Sheva!
+Current score is: Hapoel Beer Sheva: 2 - Noobs FC: 0
+Player Ramsey Safury scored a goal for Hapoel Beer Sheva!
+Current score is: Hapoel Beer Sheva: 3 - Noobs FC: 0
+Player Helder Lopes scored a goal for Hapoel Beer Sheva!
+Current score is: Hapoel Beer Sheva: 4 - Noobs FC: 0
+the match between Hapoel Beer Sheva and Noobs FC has finished!
+The score is: Hapoel Beer Sheva: 4 - Noobs FC: 0
+
+------------------------------------------------------------------------------------------------------
+
+the match between Macabbi Noobs and Beitar Noobs has begun!
+the match between Macabbi Noobs and Beitar Noobs has finished!
+The score is: Macabbi Noobs: 0 - Beitar Noobs: 0
+
+------------------------------------------------------------------------------------------------------
+
+the match between MS Noobs and Hapoel Noobs has begun!
+Player noob5 boob5 scored a goal for MS Noobs!
+Current score is: MS Noobs: 1 - Hapoel Noobs: 0
+Player noob7 boob7 scored a goal for Hapoel Noobs!
+Current score is: MS Noobs: 1 - Hapoel Noobs: 1
+Player noob5 boob5 scored a goal for Hapoel Noobs!
+Current score is: MS Noobs: 1 - Hapoel Noobs: 2
+the match between MS Noobs and Hapoel Noobs has finished!
+The score is: MS Noobs: 1 - Hapoel Noobs: 2
+
+------------------------------------------------------------------------------------------------------
+
+the match between Macabbi Noobs and Hapoel Beer Sheva has begun!
+Player Itay Shechter scored a goal for Hapoel Beer Sheva!
+Current score is: Macabbi Noobs: 0 - Hapoel Beer Sheva: 1
+Player Eyad Abu Abid scored a goal for Hapoel Beer Sheva!
+Current score is: Macabbi Noobs: 0 - Hapoel Beer Sheva: 2
+Player Dor Micha scored a goal for Hapoel Beer Sheva!
+Current score is: Macabbi Noobs: 0 - Hapoel Beer Sheva: 3
+the match between Macabbi Noobs and Hapoel Beer Sheva has finished!
+The score is: Macabbi Noobs: 0 - Hapoel Beer Sheva: 3
+
+------------------------------------------------------------------------------------------------------
+
+the match between MS Noobs and Beitar Noobs has begun!
+Player noob7 boob7 scored a goal for MS Noobs!
+Current score is: MS Noobs: 1 - Beitar Noobs: 0
+Player noob13 boob13 scored a goal for Beitar Noobs!
+Current score is: MS Noobs: 1 - Beitar Noobs: 1
+the match between MS Noobs and Beitar Noobs has finished!
+The score is: MS Noobs: 1 - Beitar Noobs: 1
+
+------------------------------------------------------------------------------------------------------
+
+the match between Noobs FC and Hapoel Noobs has begun!
+Player noob6 boob6 scored a goal for Hapoel Noobs!
+Current score is: Noobs FC: 0 - Hapoel Noobs: 1
+the match between Noobs FC and Hapoel Noobs has finished!
+The score is: Noobs FC: 0 - Hapoel Noobs: 1
+
+------------------------------------------------------------------------------------------------------
+
+the match between Beitar Noobs and Hapoel Beer Sheva has begun!
+Player Ramsey Safury scored a goal for Hapoel Beer Sheva!
+Current score is: Beitar Noobs: 0 - Hapoel Beer Sheva: 1
+Player Rotem Hatuel scored a goal for Hapoel Beer Sheva!
+Current score is: Beitar Noobs: 0 - Hapoel Beer Sheva: 2
+Player Roi Gordana scored a goal for Hapoel Beer Sheva!
+Current score is: Beitar Noobs: 0 - Hapoel Beer Sheva: 3
+the match between Beitar Noobs and Hapoel Beer Sheva has finished!
+The score is: Beitar Noobs: 0 - Hapoel Beer Sheva: 3
+
+------------------------------------------------------------------------------------------------------
+
+the match between Hapoel Noobs and Macabbi Noobs has begun!
+Player noob12 boob12 scored a goal for Hapoel Noobs!
+Current score is: Hapoel Noobs: 1 - Macabbi Noobs: 0
+Player noob11 boob11 scored a goal for Hapoel Noobs!
+Current score is: Hapoel Noobs: 2 - Macabbi Noobs: 0
+Player noob14 boob14 scored a goal for Macabbi Noobs!
+Current score is: Hapoel Noobs: 2 - Macabbi Noobs: 1
+the match between Hapoel Noobs and Macabbi Noobs has finished!
+The score is: Hapoel Noobs: 2 - Macabbi Noobs: 1
+
+------------------------------------------------------------------------------------------------------
+
+the match between Noobs FC and MS Noobs has begun!
+Player noob12 boob12 scored a goal for Noobs FC!
+Current score is: Noobs FC: 1 - MS Noobs: 0
+Player noob8 boob8 scored a goal for Noobs FC!
+Current score is: Noobs FC: 2 - MS Noobs: 0
+the match between Noobs FC and MS Noobs has finished!
+The score is: Noobs FC: 2 - MS Noobs: 0
+
+------------------------------------------------------------------------------------------------------
+
+the match between MS Noobs and Hapoel Beer Sheva has begun!
+Player Miguel Vitor scored a goal for Hapoel Beer Sheva!
+Current score is: MS Noobs: 0 - Hapoel Beer Sheva: 1
+Player Eytan Tibi scored a goal for Hapoel Beer Sheva!
+Current score is: MS Noobs: 0 - Hapoel Beer Sheva: 2
+Player Eyad Abu Abid scored a goal for Hapoel Beer Sheva!
+Current score is: MS Noobs: 0 - Hapoel Beer Sheva: 3
+Player Miguel Vitor scored a goal for Hapoel Beer Sheva!
+Current score is: MS Noobs: 0 - Hapoel Beer Sheva: 4
+the match between MS Noobs and Hapoel Beer Sheva has finished!
+The score is: MS Noobs: 0 - Hapoel Beer Sheva: 4
+
+------------------------------------------------------------------------------------------------------
+
+the match between Noobs FC and Macabbi Noobs has begun!
+Player noob2 boob2 scored a goal for Noobs FC!
+Current score is: Noobs FC: 1 - Macabbi Noobs: 0
+the match between Noobs FC and Macabbi Noobs has finished!
+The score is: Noobs FC: 1 - Macabbi Noobs: 0
+
+------------------------------------------------------------------------------------------------------
+
+the match between Hapoel Noobs and Beitar Noobs has begun!
+Player noob12 boob12 scored a goal for Hapoel Noobs!
+Current score is: Hapoel Noobs: 1 - Beitar Noobs: 0
+Player noob11 boob11 scored a goal for Hapoel Noobs!
+Current score is: Hapoel Noobs: 2 - Beitar Noobs: 0
+the match between Hapoel Noobs and Beitar Noobs has finished!
+The score is: Hapoel Noobs: 2 - Beitar Noobs: 0
+
+------------------------------------------------------------------------------------------------------
+
+the match between Hapoel Noobs and Hapoel Beer Sheva has begun!
+Player Roi Gordana scored a goal for Hapoel Beer Sheva!
+Current score is: Hapoel Noobs: 0 - Hapoel Beer Sheva: 1
+Player Shai Elias scored a goal for Hapoel Beer Sheva!
+Current score is: Hapoel Noobs: 0 - Hapoel Beer Sheva: 2
+the match between Hapoel Noobs and Hapoel Beer Sheva has finished!
+The score is: Hapoel Noobs: 0 - Hapoel Beer Sheva: 2
+
+------------------------------------------------------------------------------------------------------
+
+the match between MS Noobs and Macabbi Noobs has begun!
+Player noob12 boob12 scored a goal for MS Noobs!
+Current score is: MS Noobs: 1 - Macabbi Noobs: 0
+the match between MS Noobs and Macabbi Noobs has finished!
+The score is: MS Noobs: 1 - Macabbi Noobs: 0
+
+------------------------------------------------------------------------------------------------------
+
+the match between Noobs FC and Beitar Noobs has begun!
+the match between Noobs FC and Beitar Noobs has finished!
+The score is: Noobs FC: 0 - Beitar Noobs: 0
+
+------------------------------------------------------------------------------------------------------
+
+the match between Noobs FC and Hapoel Beer Sheva has begun!
+Player Sagiv Jehezkel scored a goal for Hapoel Beer Sheva!
+Current score is: Noobs FC: 0 - Hapoel Beer Sheva: 1
+Player Tomer Hemed scored a goal for Hapoel Beer Sheva!
+Current score is: Noobs FC: 0 - Hapoel Beer Sheva: 2
+Player noob5 boob5 scored a goal for Noobs FC!
+Current score is: Noobs FC: 1 - Hapoel Beer Sheva: 2
+the match between Noobs FC and Hapoel Beer Sheva has finished!
+The score is: Noobs FC: 1 - Hapoel Beer Sheva: 2
+
+------------------------------------------------------------------------------------------------------
+
+the match between Beitar Noobs and Macabbi Noobs has begun!
+the match between Beitar Noobs and Macabbi Noobs has finished!
+The score is: Beitar Noobs: 0 - Macabbi Noobs: 0
+
+------------------------------------------------------------------------------------------------------
+
+the match between Hapoel Noobs and MS Noobs has begun!
+Player noob3 boob3 scored a goal for Hapoel Noobs!
+Current score is: Hapoel Noobs: 1 - MS Noobs: 0
+Player noob6 boob6 scored a goal for Hapoel Noobs!
+Current score is: Hapoel Noobs: 2 - MS Noobs: 0
+the match between Hapoel Noobs and MS Noobs has finished!
+The score is: Hapoel Noobs: 2 - MS Noobs: 0
+
+------------------------------------------------------------------------------------------------------
+
+1 - Hapoel Beer Sheva - Points: 30 Won: 10 Drawn: 0 Lost: 0 Goals For: 28 Goals Against: 2
+2 - Hapoel Noobs - Points: 19 Won: 6 Drawn: 1 Lost: 4 Goals For: 15 Goals Against: 14
+3 - Noobs FC - Points: 12 Won: 3 Drawn: 3 Lost: 3 Goals For: 9 Goals Against: 11
+4 - MS Noobs - Points: 11 Won: 3 Drawn: 2 Lost: 5 Goals For: 8 Goals Against: 16
+5 - Beitar Noobs - Points: 8 Won: 1 Drawn: 5 Lost: 4 Goals For: 6 Goals Against: 13
+6 - Macabbi Noobs - Points: 3 Won: 0 Drawn: 3 Lost: 7 Goals For: 3 Goals Against: 13
+
+Process finished with exit code 0
