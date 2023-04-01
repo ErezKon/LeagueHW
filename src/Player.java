@@ -1,3 +1,7 @@
+/**
+ * represents a football player.
+ *
+ */
 public class Player extends Employee {
     private String team;
     private int totalAttempts;
@@ -8,13 +12,14 @@ public class Player extends Employee {
 
     /**
      * Constructs a player.
+     *
      * @param firstName player's first name.
      * @param lastName player's last name.
      * @param id player's id.
      * @param seniority player's seniority.
      * @param team player's team.
-     * @param totalAttempts player's total attempts.
-     * @param successfulAttempts player's successful attempts.
+     * @param totalAttempts player's total attempts (for goal keeper - saved goals, for defender - tackles, for midfielder - key passes, for forward - goals).
+     * @param successfulAttempts player's successful attempts (for goal keeper - saved goals, for defender - tackles, for midfielder - key passes, for forward - goals).
      * @param position player's position.
      */
     public Player(String firstName, String lastName, String id, int seniority,
@@ -26,23 +31,48 @@ public class Player extends Employee {
         this.position = position;
     }
 
+    /**
+     * Gets the success rate of the players, by successful attempts out of total attempts percentage. Attempts are defined per position, see ctor for more details.
+     *
+     * @return Success rate percent [0-100].
+     */
     public double getSuccessRate() {
         return (successfulAttempts * 100) / totalAttempts;
     }
 
+    /**
+     * Add attempts to player's total attempts.
+     *
+     * @param attempts The amount of attempts to add
+     */
     public void addAttempts(int attempts) {
         totalAttempts += attempts;
     }
 
+    /**
+     * Add successful attempts to player's successful attempts.
+     *
+     * @param attempts The amount of attempts to add
+     */
     public void addSuccessfulAttempts(int attempts) {
         successfulAttempts += attempts;
     }
 
+    /**
+     * A player is defined excellent if his success rate exceeds 75%.
+     *
+     * @return excellency status.
+     */
     @Override
     public boolean isExcellent() {
         return getSuccessRate() >= 75.0;
     }
 
+    /**
+     * Calculates the player's salary.
+     *
+     * @return The player's salary.
+     */
     @Override
     public double calculateSalary() {
         return basis + (getSuccessRate() / 100) * 2000 ;
@@ -54,9 +84,12 @@ public class Player extends Employee {
                 formatAttempts(true), totalAttempts, formatAttempts(false), successfulAttempts, position, calculateSalary());
     }
 
+    /**
+     * Print the player's details.
+     *
+     */
     public void printDetails() {
-        String details = toString();
-        System.out.println(details);
+        System.out.println(toString());
     }
 
     private String formatAttempts(boolean isTotal) {

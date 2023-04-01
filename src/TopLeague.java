@@ -5,17 +5,26 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Random;
+import java.util.stream.Collectors;
 
-public class LigatHaAl {
+/**
+ * Represents the top league.
+ *
+ */
+public class TopLeague {
     private static final Random rand = new Random();
     private List<Team> teams;
     private List<Game> games;
     private List<Referee> referees;
     private List<Employee> employees;
 
-    private HashMap<Integer, HashSet<Integer>> refereeAssignDic = new HashMap<Integer, HashSet<Integer>>();
+    private HashMap<Integer, HashSet<Integer>> refereeAssignDic = new HashMap<>();
 
-    public LigatHaAl() {
+    /**
+     * Constructs the top league,
+     *
+     */
+    public TopLeague() {
         teams = new ArrayList<>();
         employees = new ArrayList<>();
         games = new ArrayList<>();
@@ -29,7 +38,7 @@ public class LigatHaAl {
     private void createReferees(){
         for (int i = 0; i < 20; i++) {
             Referee ref = new Referee(String.format("ref%d", i + 1), String.format("ref%d", i + 1),
-                    IdBuilder.randomizeID(), rand.nextInt(8), rand.nextInt(50), rand.nextInt(8));
+                    IdBuilder.randomizeID(), rand.nextInt(8), 0, 0);
             referees.add(ref);
             employees.add(ref);
         }
@@ -50,6 +59,11 @@ public class LigatHaAl {
         }
     }
 
+    /**
+     * Yalla Hapoel, Championship ama yaamik!
+     *
+     * @return Hapoel Beer Sheva
+     */
     private Team createHBS() {
         Player[] hbsPlayers = new Player[]{
                 new Player("Omri", "Glazer", IdBuilder.randomizeID(), 1, "Hapoel Beer Sheva", 49, 30, Position.GOALKEEPER),
@@ -97,7 +111,9 @@ public class LigatHaAl {
                 refIndex = rand.nextInt(referees.size());
             } while(refereeAssignDic.get(round).contains(refIndex));
             refereeAssignDic.get(round).add(refIndex);
-            refs[i] = referees.get(refIndex);
+            Referee ref = referees.get(refIndex);
+            refs[i] = ref;
+            ref.addGames(1);
         }
         return refs;
     }

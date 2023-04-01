@@ -1,8 +1,23 @@
+/**
+ * represents a football coach.
+ *
+ */
 public class Coach extends Employee {
     private String team;
     private boolean pastPlayer;
     private int championships;
 
+    /**
+     * Constructs a coach.
+     *
+     * @param firstName The coach's first name.
+     * @param lastName The coach's last name.
+     * @param id The coach's ID.
+     * @param seniority The coach's seniority.
+     * @param team the coach's team
+     * @param pastPlayer whether the coach is a past player or not.
+     * @param championships championships won by the coach.
+     */
     public Coach(String firstName, String lastName, String id, int seniority, String team, boolean pastPlayer, int championships) {
         super(firstName, lastName, id, seniority);
         this.team = team;
@@ -16,21 +31,38 @@ public class Coach extends Employee {
                 pastPlayer, championships, calculateSalary());
     }
 
+    /**
+     * Print the coach's details.
+     *
+     */
     public void printDetails() {
-        String details = toString();
-        System.out.println(details);
+        System.out.println(toString());
     }
 
+    /**
+     * Calculates the coach's salary.
+     *
+     * @return The coach's salary.
+     */
     @Override
     public double calculateSalary() {
         return basis + 200 * seniority + 500 * championships;
     }
 
+    /**
+     * A coach is defined excellent if he won over two championships.
+     *
+     * @return excellency status.
+     */
     @Override
     public boolean isExcellent() {
         return championships >= 2;
     }
 
+    /**
+     * Increment the championships won by the coach.
+     *
+     */
     public void wonChampionship() {
         championships++;
     }

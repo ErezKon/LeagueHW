@@ -81,7 +81,7 @@ public class Team {
                 withHyphen ? " - " : "";
     }
 
-    public void print(boolean withPrefixTab) {
+    public void printDetails(boolean withPrefixTab) {
         System.out.println(String.format("%sTeam details:", getPrefixTab(withPrefixTab, true)));
         System.out.println(String.format("%s\t - Name: %s", getPrefixTab(withPrefixTab), name));
         System.out.println(String.format("%s\t - Stadium: %s", getPrefixTab(withPrefixTab), stadium));

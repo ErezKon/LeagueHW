@@ -1,3 +1,7 @@
+/**
+ * Represents an abstract person's basic details.
+ *
+ */
 public abstract class Person {
     protected String firstName;
     protected String lastName;
@@ -21,9 +25,12 @@ public abstract class Person {
         return String.format("First Name: %s, Last Name: %s, ID: %s", firstName, lastName, id);
     }
 
+    /**
+     * Print the person's details.
+     *
+     */
     public void printDetails() {
-        String details = toString();
-        System.out.println(details);
+        System.out.println(toString());
     }
 
     public abstract boolean isExcellent();

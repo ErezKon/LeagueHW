@@ -1,9 +1,23 @@
+/**
+ * represents a football referee.
+ *
+ */
 public class Referee extends Employee{
     private int errors;
     private int totalGames;
 
     private static int maxErrors = 0;
 
+    /**
+     * Constructs a referee.
+     * 
+     * @param firstName The referee's first name.
+     * @param lastName The referee's last name.
+     * @param id The referee's ID.
+     * @param seniority The referee's seniority.
+     * @param errors The amount of errors the referee made.
+     * @param totalGames Total games the referee participate in.
+     */
     public Referee(String firstName, String lastName, String id, int seniority, int errors, int totalGames) {
         super(firstName, lastName, id, seniority);
         this.errors = errors;
@@ -27,6 +41,11 @@ public class Referee extends Employee{
         totalGames += games;
     }
 
+    /**
+     * Calculates the referee's salary.
+     *
+     * @return The referee's salary.
+     */
     @Override
     public double calculateSalary() {
         double salary = basis + 30 * totalGames;
@@ -36,6 +55,11 @@ public class Referee extends Employee{
         return salary;
     }
 
+    /**
+     * A referee is defined excellent if his errors are less than half of the maximum errors made by a referee.
+     *
+     * @return excellency status.
+     */
     @Override
     public boolean isExcellent() {
         return errors <= (0.5 * maxErrors);
@@ -47,9 +71,12 @@ public class Referee extends Employee{
                 errors, totalGames, calculateSalary());
     }
 
+    /**
+     * Print the referee's details.
+     *
+     */
     public void printDetails() {
-        String details = toString();
-        System.out.println(details);
+        System.out.println(toString());
     }
 
     public int getErrors() {

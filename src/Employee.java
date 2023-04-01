@@ -1,3 +1,7 @@
+/**
+ * Represents an abstract employee.
+ *
+ */
 public abstract class Employee extends Person{
     protected int seniority;
     protected static final int basis = 4500;
@@ -28,9 +32,12 @@ public abstract class Employee extends Person{
         this.seniority = seniority;
     }
 
+    /**
+     * Print the person's details.
+     *
+     */
     public void printDetails() {
-        String details = toString();
-        System.out.println(details);
+        System.out.println(toString());
     }
 
     public abstract double calculateSalary();
