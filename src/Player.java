@@ -73,15 +73,27 @@ public class Player extends Employee {
         return "";
     }
 
-    public String getID() {
-        return id;
+    public String getTeam() {
+        return team;
     }
 
-    public String getFirstName() {
-        return firstName;
+    public void setTeam(String team) {
+        this.team = team;
     }
 
-    public String getLastName() {
-        return lastName;
+    public Position getPosition() {
+        return position;
+    }
+
+    public void setPosition(Position position) {
+        this.position = position;
+    }
+
+    public int getTotalAttempts() {
+        return totalAttempts;
+    }
+
+    public int getSuccessfulAttempts() {
+        return successfulAttempts;
     }
 }

@@ -62,4 +62,25 @@ public class Game {
     public List<Referee> getReferees() {
         return referees;
     }
+
+    public Date getMatchTime() {
+        return matchTime;
+    }
+
+    public Team getHost() {
+        return host;
+    }
+
+    public Team getGuest() {
+        return guest;
+    }
+
+    public int getHostGoals() {
+        return hostGoals;
+    }
+
+    public int getGuestGoals() {
+        return guestGoals;
+    }
+
 }

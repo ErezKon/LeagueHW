@@ -52,7 +52,15 @@ public class Referee extends Employee{
         System.out.println(details);
     }
 
-    public String getID() {
-        return id;
+    public int getErrors() {
+        return errors;
+    }
+
+    public int getTotalGames() {
+        return totalGames;
+    }
+
+    public static int getMaxErrors() {
+        return maxErrors;
     }
 }

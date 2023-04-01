@@ -34,4 +34,24 @@ public class Coach extends Employee {
     public void wonChampionship() {
         championships++;
     }
+
+    public String getTeam() {
+        return team;
+    }
+
+    public void setTeam(String team) {
+        this.team = team;
+    }
+
+    public boolean isPastPlayer() {
+        return pastPlayer;
+    }
+
+    public void setPastPlayer(boolean pastPlayer) {
+        this.pastPlayer = pastPlayer;
+    }
+
+    public int getChampionships() {
+        return championships;
+    }
 }

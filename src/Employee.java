@@ -20,6 +20,14 @@ public abstract class Employee extends Person{
         return String.format("%s, seniority: %d", super.toString(), seniority);
     }
 
+    public int getSeniority() {
+        return seniority;
+    }
+
+    public void setSeniority(int seniority) {
+        this.seniority = seniority;
+    }
+
     public void printDetails() {
         String details = toString();
         System.out.println(details);

@@ -54,7 +54,7 @@ public class Team {
 
     public Player getPlayerById(String id) {
         List<Player> filtered = players.stream()
-                .filter(p -> p.getID().equals(id))
+                .filter(p -> p.getId().equals(id))
                 .collect(Collectors.toList());
         if (filtered.size() > 0) {
             return filtered.get(0);
