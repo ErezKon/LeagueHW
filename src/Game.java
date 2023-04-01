@@ -2,8 +2,10 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Date;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Random;
+import java.util.stream.Collectors;
 
 /**
  * Represents a football game.
@@ -45,6 +47,59 @@ public class Game {
      */
     public String getScore() {
         return String.format("%s: %d - %s: %d", host.getName(), hostGoals, guest.getName(), guestGoals);
+    }
+
+    public void simulateGame() {
+        System.out.println(String.format("the match between %s and %s has begun!", host.getName(), guest.getName()));
+        if(host.getName().equals(HBS_LITERAL) || guest.getName().equals(HBS_LITERAL)) {
+            Team hbs = host.getName().equals(HBS_LITERAL) ? host : guest;
+            Team noobs = host.getName().equals(HBS_LITERAL) ? guest : host;
+            int hbsGoals = rand.nextInt(3) + 2;
+            int noobsGoals = rand.nextInt(2);
+            for (int i = 0; i < hbsGoals; i++) {
+                List<Player> hbsPlayers = hbs.getPlayers()
+                        .stream()
+                        .filter(p -> p.getPosition() != Position.GOALKEEPER)
+                        .collect(Collectors.toList());
+                Player scorer = hbsPlayers.get(rand.nextInt(hbsPlayers.size()));
+                scoreGoal(scorer.getId());
+            }
+
+            for (int i = 0; i < noobsGoals; i++) {
+                List<Player> noobsPlayers = noobs.getPlayers()
+                        .stream()
+                        .filter(p -> p.getPosition() != Position.GOALKEEPER)
+                        .collect(Collectors.toList());
+                Player scorer = noobsPlayers.get(rand.nextInt(noobsPlayers.size()));
+                scoreGoal(scorer.getId());
+            }
+        } else {
+            int hostGoals = rand.nextInt(3);
+            int guestGoals = rand.nextInt(3);
+            for (int i = 0; i < hostGoals; i++) {
+                List<Player> hostPlayers = host.getPlayers()
+                        .stream()
+                        .filter(p -> p.getPosition() != Position.GOALKEEPER)
+                        .collect(Collectors.toList());
+                Player scorer = hostPlayers.get(rand.nextInt(hostPlayers.size()));
+                scoreGoal(scorer.getId());
+            }
+
+            for (int i = 0; i < guestGoals; i++) {
+                List<Player> guestPlayers = guest.getPlayers()
+                        .stream()
+                        .filter(p -> p.getPosition() != Position.GOALKEEPER)
+                        .collect(Collectors.toList());
+                Player scorer = guestPlayers.get(rand.nextInt(guestPlayers.size()));
+                scoreGoal(scorer.getId());
+            }
+        }
+
+        for (Referee ref: referees) {
+            ref.addErrors(rand.nextInt(10));
+        }
+        System.out.println(String.format("the match between %s and %s has finished!\nThe score is: %s", host.getName(), guest.getName(), getScore()));
+        System.out.println("\n------------------------------------------------------------------------------------------------------\n");
     }
 
     /**

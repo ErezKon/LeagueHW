@@ -33,6 +33,44 @@ public class TopLeague {
         createTeams();
         createReferees();
         assignGames();
+
+        for (Game game: games) {
+            game.simulateGame();
+        }
+
+        printTable();
+    }
+
+    public void printTable() {
+        List<TeamTableData> teamsTableData = new ArrayList<>();
+        for (Team team: teams) {
+            TeamTableData data = new TeamTableData(team.getName());
+            teamsTableData.add(data);
+            for (Game game: games) {
+                if (game.getHost().getName().equals(team.getName()) || game.getGuest().getName().equals(team.getName())) {
+                    boolean isHost = game.getHost().getName().equals(team.getName());
+                    boolean isWin = isHost ? game.getHostGoals() > game.getGuestGoals() : game.getGuestGoals() > game.getHostGoals();
+                    boolean isLose = isHost ? game.getHostGoals() < game.getGuestGoals() : game.getGuestGoals() < game.getHostGoals();
+                    boolean isTie = game.getHostGoals() == game.getGuestGoals();
+                    if (isWin) {
+                        data.incWIn();
+                    }
+                    if (isLose) {
+                        data.incLose();
+                    }
+                    if (isTie) {
+                        data.incTie();
+                    }
+                    data.addGoalsFor(isHost ? game.getHostGoals() : game.getGuestGoals());
+                    data.addGoalsAgainst(isHost ? game.getGuestGoals() : game.getHostGoals());
+                }
+            }
+        }
+        int index = 1;
+        for (TeamTableData data: teamsTableData.stream().sorted((t1, t2) -> t1.compareTo(t2)).collect(Collectors.toList())) {
+            System.out.println(String.format("%d - %s - Points: %d Won: %d Drawn: %d Lost: %d Goals For: %d Goals Against: %d",
+                    index++, data.getName(), data.getScore(), data.getWins(), data.getTie(), data.getLose(), data.getGoalsFor(), data.getGoalsAgainst()));
+        }
     }
 
     private void createReferees(){
